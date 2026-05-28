@@ -1,0 +1,61 @@
+cff-version: 1.2.0
+message: "If you use Teleological Fabric, Noema, or any of the four metrics (PAR, GCS, WCS, CSR), please cite the manuscript as below."
+title: "From Text Similarity to Teleology: Knowledge Systems That Match Purpose, Not Words"
+abstract: >
+  Current retrieval-augmented generation (RAG) and dense-retrieval systems
+  retrieve passages by text similarity, but expert decision making requires
+  matching to purpose — the goal under which a piece of knowledge becomes
+  usable — and to wearer constraints (role, authority, and context of the
+  practitioner who will act on the retrieved knowledge). This paper
+  introduces Teleological Fabric (TF), a framework that organizes domain
+  knowledge as Noema — reusable judgment patterns binding purpose,
+  context, and procedure — and operates via six core mechanisms. We
+  propose four novel evaluation metrics (Purpose Alignment Recall,
+  Grounding Chain Score, Wearer Compatibility Score, Cross-Source
+  Reconciliation) that target properties invisible to standard IR
+  evaluation. A pilot empirical study (30 queries × 173 compiled Noemas
+  × 3 retrieval systems) shows TF outperforms BM25 and TF-IDF on all
+  four novel metrics, while TF-IDF retains an edge on standard P@5 and
+  MRR — an asymmetry the paper argues is consistent with the framework's
+  thesis.
+authors:
+  - family-names: Tomoyasu
+    given-names: Masayuki
+    affiliation: "Amiko Consulting, LLC"
+    email: masa.tomoyasu@amiko.consulting
+    orcid: "https://orcid.org/0000-0000-0000-0000"  # replace with real ORCID before publishing
+date-released: 2026-07-30
+version: "1.0"
+license: CC-BY-4.0
+type: article
+keywords:
+  - Teleological Fabric
+  - Noema
+  - judgment pattern
+  - knowledge management
+  - retrieval-augmented generation
+  - purpose-aligned retrieval
+  - expert decision systems
+  - tacit knowledge
+  - SECI model
+  - active inference
+identifiers:
+  - type: url
+    value: "https://github.com/<owner>/teleological-fabric-paper"
+    description: "GitHub repository (canonical entry point)"
+  - type: other
+    value: "arXiv: pending endorsement, cs.AI primary"
+    description: "arXiv preprint identifier (to be filled in upon submission)"
+  - type: other
+    value: "SSRN: forthcoming"
+    description: "SSRN Knowledge Management eJournal submission (forthcoming)"
+preferred-citation:
+  type: article
+  title: "From Text Similarity to Teleology: Knowledge Systems That Match Purpose, Not Words"
+  authors:
+    - family-names: Tomoyasu
+      given-names: Masayuki
+      affiliation: "Amiko Consulting, LLC"
+  year: 2026
+  journal: "arXiv preprint"
+  notes: "Endorsement and submission in progress; SSRN version forthcoming."
