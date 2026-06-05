@@ -24,8 +24,8 @@ authors:
     affiliation: "Amiko Consulting, LLC"
     email: masa.tomoyasu@amiko.consulting
     orcid: "https://orcid.org/0000-0000-0000-0000"  # replace with real ORCID before publishing
-date-released: 2026-07-30
-version: "1.0"
+date-released: 2026-06-05
+version: "2.0"
 license: CC-BY-4.0
 type: article
 keywords:
@@ -41,14 +41,14 @@ keywords:
   - active inference
 identifiers:
   - type: url
-    value: "https://github.com/<owner>/teleological-fabric-paper"
+    value: "https://github.com/gabachom/teleological-fabric-paper"
     description: "GitHub repository (canonical entry point)"
   - type: other
     value: "arXiv: pending endorsement, cs.AI primary"
     description: "arXiv preprint identifier (to be filled in upon submission)"
   - type: other
-    value: "SSRN: forthcoming"
-    description: "SSRN Knowledge Management eJournal submission (forthcoming)"
+    value: "10.5281/zenodo.20554806"
+    description: "Zenodo working paper v2 (knowledge-management framing, 150 queries × 406 Noemas) — DOI: 10.5281/zenodo.20554806. v1 (30q×173n): 10.5281/zenodo.20500954"
 preferred-citation:
   type: article
   title: "From Text Similarity to Teleology: Knowledge Systems That Match Purpose, Not Words"
@@ -58,4 +58,5 @@ preferred-citation:
       affiliation: "Amiko Consulting, LLC"
   year: 2026
   journal: "arXiv preprint"
-  notes: "Endorsement and submission in progress; SSRN version forthcoming."
+  notes: "arXiv endorsement in progress. Zenodo v2 DOI: 10.5281/zenodo.20554806 (150 queries × 406 Noemas, 2026-06-05). v1 DOI preserved at 10.5281/zenodo.20500954 (30q pilot, 2026-05-28)."
+  doi: "10.5281/zenodo.20554806"

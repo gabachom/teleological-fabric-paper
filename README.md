@@ -17,7 +17,7 @@ This repository hosts the manuscript, supplementary materials, and citation info
 | Channel | State |
 | --- | --- |
 | arXiv (cs.AI / cs.IR / cs.HC) | endorsement in progress |
-| SSRN (Knowledge Management eJournal) | in submission |
+| Zenodo (knowledge-management framing) | ✅ **v2**: [DOI: 10.5281/zenodo.20554806](https://doi.org/10.5281/zenodo.20554806) (150 queries × 406 Noemas, 2026-06-05) — v1 archived at [10.5281/zenodo.20500954](https://doi.org/10.5281/zenodo.20500954) |
 | Substack series (4 posts) | rolling launch, July 30 2026 |
 
 **One-paragraph abstract.** Current retrieval-augmented generation (RAG) and dense-retrieval systems retrieve passages by text similarity, but expert decision making requires matching to *purpose* — the goal under which a piece of knowledge becomes usable — and to *wearer constraints* (role, authority, and context of the practitioner who will act on the retrieved knowledge). This paper introduces **Teleological Fabric (TF)**, a framework that organizes domain knowledge as **Noema** — reusable judgment patterns binding purpose, context, and procedure — and operates via six core mechanisms supported by a Purpose Tree, Grounding Chain, Wearer Constraint, and Inconsistency Detection structures. We propose four novel evaluation metrics — **Purpose Alignment Recall (PAR)**, **Grounding Chain Score (GCS)**, **Wearer Compatibility Score (WCS)**, and **Cross-Source Reconciliation (CSR)** — that target properties invisible to standard IR evaluation. A pilot empirical study (30 queries × 173 compiled Noemas × 3 retrieval systems) shows TF outperforms BM25 and TF-IDF baselines on all four novel metrics, while TF-IDF retains the edge on standard P@5 and MRR. We argue this asymmetry is consistent with the framework's thesis rather than against it: different metrics measure different properties, and standard IR metrics are not designed to capture purpose alignment or grounding integrity.
@@ -63,8 +63,8 @@ If you use TF, Noema, or any of the four metrics in your work, please cite:
   year    = {2026},
   journal = {arXiv preprint},
   note    = {Endorsement and submission in progress;
-             SSRN version forthcoming},
-  url     = {https://github.com/<owner>/teleological-fabric-paper}
+             Zenodo version forthcoming},
+  url     = {https://github.com/gabachom/teleological-fabric-paper}
 }
 ```
 
